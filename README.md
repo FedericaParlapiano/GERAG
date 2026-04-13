@@ -53,3 +53,17 @@ The evaluation pipeline expects a local LLM server (e.g., Ollama or vLLM) compat
 * Default Endpoint: http://localhost:11504/v1
 You can modify these parameters at the top of the GERAG_demo.ipynb notebook
 
+
+### Usage
+
+The entire workflow is managed through the provided Jupyter Notebook.
+
+1. Open notebooks/GERAG_demo.ipynb.
+
+2. Run the cells in sequence. The notebook orchestrates:
+
+ * Parsing GraphRAG artifacts into a NetworkX graph.
+ * Encoding node descriptions using SentenceTransformer.
+ * Training the PyTorch Cross-Attention network (or loading pre-trained weights).
+ * Running the retrieval and prompting loop against your local LLM.
+ * Saving results and generating aggregated metrics (Accuracy, F1-Score).
