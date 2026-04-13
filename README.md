@@ -33,7 +33,23 @@ GERAG/
 ```
 
 ## Installation and Setup
+### Clone the Repository
 ```
 git clone [https://github.com/YOUR_USERNAME/GERAG.git](https://github.com/YOUR_USERNAME/GERAG.git)
 cd GERAG
 ```
+
+### Install Dependencies
+Ensure you have Python 3.10+ installed, then run:
+```
+pip install -r requirements.txt
+```
+
+### Local LLM configuration
+The evaluation pipeline expects a local LLM server (e.g., Ollama or vLLM) compatible with the OpenAI API.
+
+* Default Model: gemma3:12b
+
+* Default Endpoint: http://localhost:11504/v1
+You can modify these parameters at the top of the GERAG_demo.ipynb notebook
+
