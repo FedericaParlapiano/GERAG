@@ -35,7 +35,7 @@ GERAG/
 ## Installation and Setup
 ### Clone the Repository
 ```
-git clone [https://github.com/YOUR_USERNAME/GERAG.git](https://github.com/YOUR_USERNAME/GERAG.git)
+git clone [https://github.com/FedericaParlapiano/GERAG.git](https://github.com/FedericaParlapiano/GERAG.git)
 cd GERAG
 ```
 
